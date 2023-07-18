@@ -3,9 +3,9 @@ package com.cta.learning.rps;
 import java.util.Scanner;
 
 public class Game implements GameInterface {
-    public static Scanner user_input = new Scanner(System.in);
-    public static boolean playAgain;
-    public static String winner;
+    protected static Scanner user_input = new Scanner(System.in);
+    protected static boolean playAgain;
+    protected static String winner;
     protected int computerScore = 0;
     protected int userScore = 0;
     protected Move move = new Move();
